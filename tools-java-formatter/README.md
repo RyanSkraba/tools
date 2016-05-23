@@ -42,7 +42,7 @@ To setup the automatic formatter validation for every maven build please add the
 </build>
 ```
 
-You may have to add this plugin repository to you pom too if it is not already done.
+You may have to add this plugin repository to your pom too if it is not already done.
 ```
 	<pluginRepositories>
         <pluginRepository>
@@ -52,4 +52,4 @@ You may have to add this plugin repository to you pom too if it is not already d
         </pluginRepository>
     </pluginRepositories>
 ```
-If you want to format all your source code with the formatter config file you can change the goal from *validate* to *format*
+If you want to format all your source code with the formatter config file you can change the goal from *formatter:validate* to *formatter:format*
